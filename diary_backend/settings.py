@@ -97,6 +97,7 @@ MIDDLEWARE = [
 CORS_ORIGIN_WHITELIST = (
     'http://localhost:3000',
      'http://localhost:8000',
+     'https://iqqdiary-frontend.herokuapp.com',
  )
 
 ROOT_URLCONF = 'diary_backend.urls'
